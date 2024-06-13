@@ -1,7 +1,9 @@
+import Header from "./components/Header.jsx";
+
 function App() {
   return (
       <>
-            <p className={'underline'}>Hello</p>
+          <Header />
       </>
   )
 }
