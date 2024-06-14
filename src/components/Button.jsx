@@ -1,7 +1,7 @@
 const Button = () => {
     return (
-        <section className={""}>
-            <div className={"bg-[#91c6ff] flex flex-col justify-center"}>
+        <section>
+            <div className={"bg-[#91c6ff] flex flex-col justify-center border-2 border-white"}>
 
                 <div className={"font-thin text-xs flex justify-center m-4"}>[ˈmyo͞ozik]</div>
 
@@ -21,9 +21,9 @@ const Button = () => {
                     </p>
                 </div>
             
-                <div class={"flex justify-center items-center"}>
-                    <button class={"hover:bg-[#a7cdf5] bg-local flex m-4 text-black font-light font p-3 rounded-full border-4 border-[#3b6897]"}>
-                        Click if you love music!
+                <div className={"flex justify-center items-center"}>
+                    <button className={"hover:bg-[#a7cdf5] bg-local flex m-4 text-black font-light font p-3 rounded-full border-4 border-[#3b6897]"}>
+                        Click if you love music...
                     </button>
                 </div>
             </div>
