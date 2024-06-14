@@ -2,6 +2,7 @@ import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import Button from "./components/button.jsx";
 import Footer from "./components/Footer.jsx";
+import Album from "./components/album.jsx";
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <>
           <Header />
           <Hero />
-  
+          <Album />
           <Button />
           <Footer />
       </>
