@@ -2,7 +2,7 @@ import clairo from '../assets/img.png'
 
 const Hero = () => {
     return (
-        <div className={"bg-[#D1FAFF] block sm:flex flex-row border-2 border-black"}>
+        <div className={"bg-[#D1FAFF] block sm:flex flex-row border-2 border-white"}>
 
             <div className={"flex flex-col justify-center items-center w-full sm:w-1/2 space-y-4"}>
                 <p className={"text-4xl font-bold text-gray-800"}>Welcome</p>
