@@ -7,7 +7,7 @@ import { CiSearch } from "react-icons/ci";
 const Header = () => {
     return (
         <>
-            <header className={'bg-gradient-to-r from-black to-neutral-900 p-5 text-white'}>
+            <header className={'border border-white bg-gradient-to-r from-black to-neutral-900 p-5 text-white'}>
                 <div className={'flex justify-between items-center'}>
                     <div className={'flex items-center space-x-2'}>
                         <img src={logo}/>
