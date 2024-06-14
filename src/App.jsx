@@ -7,9 +7,9 @@ function App() {
   return (
       <>
           <Header />
-          {/*<Hero />*/}
-          {/*<Button />*/}
-          {/*<Footer />*/}
+          <Hero />
+          <Button />
+          <Footer />
       </>
   )
 }
