@@ -32,7 +32,7 @@ const Album = () => {
                 </div>
             </div>
             <div className=' w-1/6 h-48  flex justify-center align-middle group'>
-                <img className='rounded-lg absolute scale-90 object-cover w-50 h-48 group-hover:opacity-50' src={Album2} href='' alt=''/>
+                <img className='rounded-lg absolute scale-90 object-cover w-50 h-48 group-hover:opacity-50' src={Album2} hrefx='' alt=''/>
                 <div className="relative p-5">
                     <div className="mt-40">
                             {/* Hidden content  **/}
