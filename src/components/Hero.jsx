@@ -15,7 +15,7 @@ const Hero = () => {
                 </p>
 
                 <button
-                    className={'hover:cursor-pointer flex items-center gap-2 bg-blue-500 transition-transform transform hover:scale-110 text-xl rounded-full p-2 font-medium shadow-md shadow-[#536072] p-3'}>Get
+                    className={'text-white hover:cursor-pointer flex items-center gap-2 bg-blue-500 transition-transform transform hover:scale-110 text-xl rounded-full font-medium shadow-md shadow-[#536072] p-3'}>Get
                     Started
                     <FaArrowRight />
                 </button>
