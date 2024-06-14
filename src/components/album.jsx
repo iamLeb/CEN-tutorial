@@ -13,7 +13,7 @@ const Album = () => {
                 <img class='rounded-lg absolute scale-90 object-cover w-50 h-48 group-hover:opacity-50' src={Album1} href='' alt=''/>
                 <div class="relative p-5">
                     <div class="mt-40">
-                            {/* Hidden content */}
+                            {/* Hidden content  **/}
                             <div
                                 class="transition-all transform 
                                 translate-y-8 opacity-0 
