@@ -31,11 +31,12 @@ const Album = () => {
                     </div>
                 </div>
             </div>
-            <div clasaName=' w-1/6 h-48  flex justify-center align-middle group'>
-                <img className='rounded-lg absolute  scale-90 object-cover w-50 h-48 group-hover:opacity-50' src={Album2} alt=''/>
+            <div className=' w-1/6 h-48  flex justify-center align-middle group'>
+                <img className='rounded-lg absolute scale-90 object-cover w-50 h-48 group-hover:opacity-50' src={Album2} href='' alt=''/>
                 <div className="relative p-5">
                     <div className="mt-40">
-                            {/* Hidden content */}
+                            {/* Hidden content  **/}
+
                             <div
                                 className="transition-all transform 
                                 translate-y-8 opacity-0 
@@ -43,7 +44,7 @@ const Album = () => {
                                 group-hover:-translate-y-12"
                             >
                                 <div className="">
-                                    <a href='https://open.spotify.com/album/4kkVGtCqE2NiAKosri9Rnd' className="text-lg text-white">
+                                    <a href='https://open.spotify.com/album/3NEDQmYF1roygFssVEwkwv' className="text-lg text-white">
                                         Immunity
                                     </a>
                                 </div>
