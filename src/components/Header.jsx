@@ -1,7 +1,8 @@
-import logo from '../assets/react.svg';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoChatboxEllipsesOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
+import logo from "../assets/footerlogo.png";
+
 
 const Header = () => {
     return (
@@ -10,7 +11,6 @@ const Header = () => {
                 <div className={'flex justify-between items-center'}>
                     <div className={'flex items-center space-x-2'}>
                         <img src={logo}/>
-                        <h3 className={'text-2xl font-extrabold'}>LOGO</h3>
                     </div>
 
                     <div className={'md:hidden block'}>
