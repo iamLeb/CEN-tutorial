@@ -1,7 +1,7 @@
 const Button = () => {
     return (
-        <section className={""}>
-            <div className={"bg-[#91c6ff] flex flex-col justify-center"}>
+        <section>
+            <div className={"bg-[#91c6ff] flex flex-col justify-center border-2 border-white"}>
 
                 <div className={"font-thin text-xs flex justify-center m-4"}>[ˈmyo͞ozik]</div>
 
