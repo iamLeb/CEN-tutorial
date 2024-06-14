@@ -2,7 +2,6 @@ const Button = () => {
     return (
         <section>
             <div className={"bg-[#91c6ff] flex flex-col justify-center border-2 border-white"}>
-
                 <div className={"font-thin text-xs flex justify-center m-4"}>[ˈmyo͞ozik]</div>
 
                 <div className={"font-extrabold text-4xl flex justify-center"}>
@@ -29,7 +28,6 @@ const Button = () => {
                     </button>
                 </div>
             </div>
-
         </section>
     );
 }
