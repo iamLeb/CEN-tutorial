@@ -96,4 +96,4 @@ const Album = () => {
     );
 }; 
 
-export default Album; hh 
+export default Album;
