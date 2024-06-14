@@ -15,14 +15,14 @@ const Hero = () => {
                 </p>
 
                 <button
-                    className={'flex items-center gap-2 bg-blue-500 border-2 border-black transition-transform transform hover:scale-110 text-xl rounded-full p-2 font-medium shadow-md shadow-[#536072] p-3'}>Get
+                    className={'hover:cursor-pointer flex items-center gap-2 bg-blue-500 transition-transform transform hover:scale-110 text-xl rounded-full p-2 font-medium shadow-md shadow-[#536072] p-3'}>Get
                     Started
                     <FaArrowRight />
                 </button>
 
             </div>
 
-            <div className={'absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2'}>
+            <div className={'hover:cursor-pointer absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2'}>
                 <FaArrowRightArrowLeft className={'bg-white p-1.5 rounded-full'} size={30}/>
             </div>
 
