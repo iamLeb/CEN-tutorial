@@ -21,8 +21,8 @@ const Button = () => {
                     </p>
                 </div>
             
-                <div class={"flex justify-center items-center"}>
-                    <button class={"hover:bg-[#a7cdf5] bg-local flex m-4 text-black font-light font p-3 rounded-full border-4 border-[#3b6897]"}>
+                <div className={"flex justify-center items-center"}>
+                    <button className={"hover:bg-[#a7cdf5] bg-local flex m-4 text-black font-light font p-3 rounded-full border-4 border-[#3b6897]"}>
                         Click if you love music!
                     </button>
                 </div>
