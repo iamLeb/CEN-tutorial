@@ -14,6 +14,7 @@ const Album = () => {
                 <div class="relative p-5">
                     <div class="mt-40">
                             {/* Hidden content  **/}
+
                             <div
                                 class="transition-all transform 
                                 translate-y-8 opacity-0 
