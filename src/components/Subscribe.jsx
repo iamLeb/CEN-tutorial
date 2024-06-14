@@ -1,7 +1,7 @@
 const Subscribe= () => {
     return (
-        <section className={""}>
-            <div className={"flex flex-col justify-center"}>
+        <section className={"border border-white"}>
+            <div className={"flex flex-col justify-center m-4"}>
                 <div className={"font-extrabold text-4xl flex justify-center text-black"}>
                     <div>Subscribe To Our Newsletter</div>
                 </div>
