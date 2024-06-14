@@ -10,7 +10,7 @@ const Album = () => {
     return (
         <div className='flex flex-col justify-center items-center sm:flex-row sm:justify-evenly bg-white shadow-lg'>
             <div className=' w-1/6 h-48  flex justify-center align-middle group'>
-                <img className='rounded-lg absolute scale-90 object-cover w-50 h-48 group-hover:opacity-50' src={Album1} href='' alt=''/>
+                <img className='rounded-lg absolute scale-90 object-cover w-50 h-48 group-hover:opacity-50 group-hover:scale-100' src={Album1} href='' alt=''/>
                 <div className="relative p-5">
                     <div className="mt-40">
                             {/* Hidden content  **/}
@@ -32,7 +32,7 @@ const Album = () => {
                 </div>
             </div>
             <div className=' w-1/6 h-48  flex justify-center align-middle group'>
-                <img className='rounded-lg absolute scale-90 object-cover w-50 h-48 group-hover:opacity-50' src={Album2} href='' alt=''/>
+                <img className='rounded-lg absolute scale-90 object-cover w-50 h-48 group-hover:opacity-50 group-hover:scale-100' src={Album2} href='' alt=''/>
                 <div className="relative p-5">
                     <div className="mt-40">
                             {/* Hidden content  **/}
@@ -54,7 +54,7 @@ const Album = () => {
                 </div>
             </div>
             <div className=' w-1/6 h-48  flex justify-center align-middle group'>
-                <img className='rounded-lg absolute  scale-90 object-cover w-50 h-48 group-hover:opacity-50' src={Album3} alt=''/>
+                <img className='rounded-lg absolute  scale-90 object-cover w-50 h-48 group-hover:opacity-50 group-hover:scale-100' src={Album3} alt=''/>
                 <div className="relative p-5">
                     <div className="mt-40">
                             <div
@@ -74,7 +74,7 @@ const Album = () => {
                 </div>
             </div>
             <div className=' w-1/6 h-48  flex justify-center align-middle group'>
-                <img className='rounded-lg absolute scale-90 object-cover w-50 h-48 group-hover:opacity-50' src={Album4} alt=''/>
+                <img className='rounded-lg absolute scale-90 object-cover w-50 h-48 group-hover:opacity-50 group-hover:scale-100' src={Album4} alt=''/>
                 <div className="relative p-5">
                     <div className="mt-40">
                             {/* Hidden content */}
