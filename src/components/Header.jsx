@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from '../assets/react.svg';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoChatboxEllipsesOutline } from "react-icons/io5";
