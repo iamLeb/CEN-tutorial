@@ -15,16 +15,15 @@ const Button = () => {
                             (noun)
                         </span>
                         vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion:
-                        <div className={"text-neutral-400 m-1 flex justify-center"}>
+                        <div className={"text-neutral-600 m-1 flex justify-center"}>
                             "couples were dancing to the music" . "baroque music"
                         </div>
                     </p>
                 </div>
             
                 <div class={"flex justify-center items-center"}>
-                    <button class={"hover:bg-[#bf8660c4] bg-local flex text-white font-light font p-3 rounded-full border-4 border-white"}>
+                    <button class={"hover:bg-[#bf8660c4] bg-local flex text-black font-light font p-3 rounded-full border-4 border-[#8e4b21a9]"}>
                         Click if you love music!
-                           
                     </button>
                 </div>
             </div>
