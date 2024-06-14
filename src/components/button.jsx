@@ -1,9 +1,9 @@
 const Button = () => {
     return (
-        <section>
-            <div className={"bg-[#eee1c7] flex flex-col h-96 justify-center"}>
+        <section className={""}>
+            <div className={"bg-[#91c6ff] flex flex-col justify-center"}>
 
-                <div className={"font-thin text-xs flex justify-center"}>[ˈmyo͞ozik]</div>
+                <div className={"font-thin text-xs flex justify-center m-4"}>[ˈmyo͞ozik]</div>
 
                 <div className={"font-extrabold text-4xl flex justify-center"}>
                     <div>music</div>
@@ -22,7 +22,7 @@ const Button = () => {
                 </div>
             
                 <div class={"flex justify-center items-center"}>
-                    <button class={"hover:bg-[#bf8660c4] bg-local flex text-black font-light font p-3 rounded-full border-4 border-[#8e4b21a9]"}>
+                    <button class={"hover:bg-[#a7cdf5] bg-local flex m-4 text-black font-light font p-3 rounded-full border-4 border-[#3b6897]"}>
                         Click if you love music!
                     </button>
                 </div>
