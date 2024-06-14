@@ -28,7 +28,6 @@ const Button = () => {
                 </div>
             </div>
 
-
         </section>
     );
 }
