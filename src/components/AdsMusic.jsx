@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import Myimage from '../assets/musicPics.jpg'
-import { BsMusicPlayer } from "react-icons/bs"
 import { FcAdvertising } from "react-icons/fc"
 
 
@@ -13,22 +12,27 @@ const AdsMusic = () => {
        
             
             
-            <div className=' mb-4 bg-white'>
-                <div className='hidden md:flex  justify-normal gap-3 bg-cyan-600 border-neutral-900 sm:flex rounded-lg'> 
-                    <img src= {Myimage} alt= 'Advertisments' style={{width:'500px', height:'500px'}} />
+            <header className='relative flex justify justify-between items-center bg-cyan-600 m-0.5'>
+                <div className='hidden md:flex  justify-between items-center gap-3 bg-cyan-600 border-neutral-900'> 
+                    <img className='w-[500px] h-[500px] sm:flex rounded-br ' src= {Myimage} alt= 'Advertisments' />
                 </div> 
 
-                <div className='flex justify-end items-center text-black gap-3 bg-cyan-600 font-sans mb-2 hover:underline lg:mx-auto text-3xl font-extrabold pr-20'>
-                    {/* <a href=" https://youtu.be/LHCob76kigA?si=ePOfo6SJKaso-Jy0"> Advertisements </a> */}
-                    <button class="p-2 bg-cyan-800  lg:bg-black sm:bg-cyan-600  md:bg-black rounded-md text-white"><a href=" https://youtu.be/LHCob76kigA?si=ePOfo6SJKaso-Jy0">Advertisements</a></button>
+                <div className='sm:flex justify-center items-center text-black gap-3 bg-cyan-600 font-sans hover:underline lg:mx-auto text-3xl font-extrabold pl-40 py-2 text-balance hover:opacity-5'>
+                    {/* <a href=" https://youtu.be/LHCob76kigA?si=ePOfo6SJKaso-Jy0"> Advertisments </a> */}
+                    <button class="p-2 bg-cyan-800  lg:bg-cyan-700 sm:bg-cyan-600  md:bg-cyan-800 rounded-md text-white py-5"><a href=" https://youtu.be/LHCob76kigA?si=ePOfo6SJKaso-Jy0">Advertisments</a></button>
                            
-                       <div>  
+                       <div className='flex justify-center'>  
                              <FcAdvertising />
-                        </div>    
+                        </div>   
+                        <div className='hidden sm:flex justify-center items-center text-xs'>
+                            Come here for the latest ad news
+                        </div> 
+                        
                         
 
 
                 </div>
+                
 
                 
         
@@ -36,7 +40,7 @@ const AdsMusic = () => {
                 
                 
             
-            </div>
+            </header>
         
     );
 };
