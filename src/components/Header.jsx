@@ -2,6 +2,8 @@ import logo from '../assets/react.svg';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoChatboxEllipsesOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
+import { LuLayoutDashboard } from "react-icons/lu";
+import { IoAlbumsOutline } from "react-icons/io5";
 
 const Header = () => {
     return (
@@ -25,8 +27,21 @@ const Header = () => {
                     </div>
 
                     <ul className={'hidden md:flex items-center space-x-4 text-lg font-normal'}>
-                        <li>Home</li>
-                        <li>Albums</li>
+                        <li>
+                            <div className={'flex space-x-2 items-center hover:text-gray-400 cursor-pointer'}>
+                                <LuLayoutDashboard />
+                                <span>Home</span>
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <div className={'flex space-x-2 items-center hover:text-gray-400 cursor-pointer'}>
+                                <IoAlbumsOutline />
+                                <span>Albums</span>
+                            </div>
+
+                        </li>
                         <li>
                             <button
                                 className={'flex items-center space-x-4 bg-blue-500 rounded-full px-6 py-2 transition-all duration-300 hover:scale-105 font-bold'}>
