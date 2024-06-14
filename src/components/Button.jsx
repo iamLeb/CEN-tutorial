@@ -23,7 +23,9 @@ const Button = () => {
             
                 <div className={"flex justify-center items-center"}>
                     <button className={"hover:bg-[#a7cdf5] bg-local flex m-4 text-black font-light font p-3 rounded-full border-4 border-[#3b6897]"}>
+                        <a href="https://youtu.be/Y0Q3nc8m_Hc?si=njfJfOY1-hhVZ2Uo">
                         Click if you love music...
+                        </a>
                     </button>
                 </div>
             </div>
