@@ -8,10 +8,10 @@ import Album4 from '../assets/charm.png'
 
 const Album = () => {
     return (
-        <div className='flex flex-col justify-evenly items-center  sm:flex-row sm:justify-evenly sm:items-middle gap-x-10 bg-white shadow-lg'>
+        <div className='flex flex-col justify-evenly items-between  sm:flex-row sm:justify-evenly sm:items-middle bg-white shadow-lg'>
             <div className='h-96 flex justify-center items-center group'>
                 <img className='rounded-lg absolute scale-90 object-cover w-100 h-86 group-hover:opacity-50 group-hover:scale-100' src={Album1} alt=''/>
-                <div className="relative p-5">
+                <div className="relative p-10">
                     <div className="mt-40">
                             {/* Hidden content */}
                             <div
@@ -30,9 +30,9 @@ const Album = () => {
                     </div>
                 </div>
             </div>  
-            <div className=' flex justify-center items-center group'>
+            <div className=' h-96 flex justify-center items-center group'>
                 <img className='rounded-lg absolute scale-90 object-cover w-100 h-86 group-hover:opacity-50 group-hover:scale-100' src={Album2} href='' alt=''/>
-                <div className="relative p-5">
+                <div className="relative p-10">
                     <div className="mt-40">
                             {/* Hidden content  **/}
 
@@ -52,9 +52,9 @@ const Album = () => {
                     </div>
                 </div>
             </div>
-            <div className=' flex justify-center items-center group'>
+            <div className='h-96 flex justify-center items-center group'>
                 <img className='rounded-lg absolute scale-90 object-cover w-100 h-86 group-hover:opacity-50 group-hover:scale-100' src={Album3} alt=''/>
-                <div className="relative p-5">
+                <div className="relative p-10">
                     <div className="mt-40">
                             {/* Hidden content */}
                             <div
@@ -73,9 +73,9 @@ const Album = () => {
                     </div>
                 </div>
             </div>  
-            <div className=' flex justify-center items-center group'>
+            <div className='h-96 flex justify-center items-center group'>
                 <img className='rounded-lg absolute scale-90 object-cover w-100 h-86 group-hover:opacity-50 group-hover:scale-100' src={Album4} alt=''/>
-                <div className="relative p-5">
+                <div className="relative p-10 ">
                     <div className="mt-40">
                             {/* Hidden content */}
                             <div
